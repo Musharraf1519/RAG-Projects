@@ -18,9 +18,9 @@ Supports **PDF, DOCX, TXT**, automatic indexing, and CPU-friendly LLM-based answ
 
 ## **📁 Folder Structure**
 
-rag_faiss_project/
-├── data/ # Raw PDFs, DOCX, TXT
-├── embeddings/ # FAISS index + metadata
+rag_faiss_project/<br>
+├── data/ # Raw PDFs, DOCX, TXT <br>
+├── embeddings/ # FAISS index + metadata<br>
 ├── rag/
 │ ├── ingestion.py # Load documents
 │ ├── chunking.py # Split text into chunks
@@ -117,6 +117,8 @@ Real-time progress bar for large documents.
 
 Switch to larger LLM if more RAM is available.
 
+---
+
 💡 Advantages
 
 Fully interactive: upload documents and query without touching code.
@@ -129,6 +131,8 @@ Open-source: no paid API keys required.
 
 Interview-ready: demonstrates RAG pipeline, vector DB, embeddings, and LLM generation.
 
+---
+
 📌 Notes
 
 Keep uploaded documents in data/ folder for persistent storage.
@@ -136,6 +140,8 @@ Keep uploaded documents in data/ folder for persistent storage.
 FAISS index is saved in embeddings/faiss_index*.
 
 To reset the index, delete the embeddings folder and restart the app.
+
+---
 
 🎯 Summary
 
