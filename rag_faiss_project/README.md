@@ -21,15 +21,15 @@ Supports **PDF, DOCX, TXT**, automatic indexing, and CPU-friendly LLM-based answ
 rag_faiss_project/<br>
 ├── data/ # Raw PDFs, DOCX, TXT <br>
 ├── embeddings/ # FAISS index + metadata<br>
-├── rag/
-│ ├── ingestion.py # Load documents
-│ ├── chunking.py # Split text into chunks
-│ ├── embedding.py # Generate embeddings
-│ ├── vector_store.py # FAISS wrapper with incremental indexing
-│ ├── retrieval.py # Retrieve top-k relevant chunks
-│ └── generation.py # LLM-based answer generation
-├── app.py # Streamlit interface with live uploads
-├── requirements.txt # All dependencies
+├── rag/<br>
+│ ├── ingestion.py # Load documents<br>
+│ ├── chunking.py # Split text into chunks<br>
+│ ├── embedding.py # Generate embeddings<br>
+│ ├── vector_store.py # FAISS wrapper with incremental indexing<br>
+│ ├── retrieval.py # Retrieve top-k relevant chunks<br>
+│ └── generation.py # LLM-based answer generation<br>
+├── app.py # Streamlit interface with live uploads<br>
+├── requirements.txt # All dependencies<br>
 └── README.md
 
 
