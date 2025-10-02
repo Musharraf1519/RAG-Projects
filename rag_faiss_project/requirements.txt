@@ -1,0 +1,22 @@
+# Streamlit for UI
+streamlit>=1.25.0
+
+# FAISS for vector search (CPU only)
+faiss-cpu>=1.7.3
+
+# Embedding model
+sentence-transformers>=2.2.2
+
+# Transformers for generation
+transformers>=4.35.0
+torch>=2.1.0
+
+# Document processing
+PyPDF2
+python-docx
+
+# Optional: accelerate (for faster CPU inference, not mandatory)
+accelerate>=0.24.0
+
+# Utilities
+numpy>=1.25.0
