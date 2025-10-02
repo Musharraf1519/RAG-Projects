@@ -151,3 +151,13 @@ Customer support automation
 
 It’s fully modular, open-source, and demonstrates industry-level implementation of Retrieval-Augmented Generation.
 
+---
+
+## 👨‍💻 Author
+
+<b>Musharraf Hussain Khan</b><br>
+[GitHub](https://github.com/Musharraf1519)<br>
+[LinkedIn](https://www.linkedin.com/in/musharraf-hussain-khan/)<br>
+Email: musharrafhussainkhann@example.com
+
+
