@@ -18,7 +18,7 @@ generator = RAGGenerator(device="cpu")
 # ----------------------
 # UI Title
 # ----------------------
-st.title("📄 RAG QA System with Live Document Uploads")
+st.title("📄 RAG QA System")
 
 # ----------------------
 # Document Upload Section

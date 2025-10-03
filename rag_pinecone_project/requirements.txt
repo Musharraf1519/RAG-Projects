@@ -1,0 +1,8 @@
+# requirements.txt - add your code here
+streamlit
+sentence-transformers
+transformers
+torch
+pinecone-client
+PyPDF2
+python-docx

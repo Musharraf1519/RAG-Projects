@@ -133,6 +133,10 @@ This project is a production-grade RAG system suitable for:
 It’s fully modular, open-source, and demonstrates industry-level implementation of Retrieval-Augmented Generation.
 
 ---
+![Initial Page](initial.png)
+![Final Page](image.png)
+
+---
 
 ## 👨‍💻 Author
 

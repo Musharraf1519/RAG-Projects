@@ -20,3 +20,4 @@ accelerate>=0.24.0
 
 # Utilities
 numpy>=1.25.0
+sentence_transformers
