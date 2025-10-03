@@ -140,5 +140,3 @@ It’s fully modular, open-source, and demonstrates industry-level implementatio
 [GitHub](https://github.com/Musharraf1519)<br>
 [LinkedIn](https://www.linkedin.com/in/musharraf-hussain-khan/)<br>
 Email: musharrafhussainkhann@example.com
-
-
