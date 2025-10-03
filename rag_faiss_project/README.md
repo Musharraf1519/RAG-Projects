@@ -76,84 +76,59 @@ streamlit run app.py
 
 ---
 
-⚙️ Technical Details
-RAG Pipeline
-
-Data Ingestion
-
-Loads PDF, DOCX, TXT files using PyPDF2 and python-docx.
-
-Chunking
-
-Splits text into overlapping chunks for better context coverage.
-
-Embedding
-
-Uses Sentence-Transformers (all-MiniLM-L6-v2) to convert chunks into embeddings.
-
-Vector Database
-
-Uses FAISS for fast similarity search.
-
-Supports incremental updates when new documents are added.
-
-Retrieval
-
-Retrieves top-k relevant chunks for the query from FAISS.
-
-Generation
-
-Lightweight LLM (Flan-T5 Small) generates human-readable answers.
-
-Fully CPU-friendly.
-
-Optional Improvements
-
-Multi-document uploads at once.
-
-Show indexed documents in UI.
-
-Real-time progress bar for large documents.
-
-Switch to larger LLM if more RAM is available.
+## **⚙️ Technical Details**
+**RAG Pipeline**
+1. Data Ingestion
+   * Loads PDF, DOCX, TXT files using PyPDF2 and python-docx.
+2. Chunking
+   * Splits text into overlapping chunks for better context coverage.
+3. Embedding
+   * Uses Sentence-Transformers (all-MiniLM-L6-v2) to convert chunks into embeddings.
+4. Vector Database
+   * Uses FAISS for fast similarity search.
+   * Supports incremental updates when new documents are added.
+5. Retrieval
+   * Retrieves top-k relevant chunks for the query from FAISS.
+6. Generation
+   * Lightweight LLM (Flan-T5 Small) generates human-readable answers.
+   * Fully CPU-friendly.
 
 ---
 
-💡 Advantages
+## **Optional Improvements**
 
-Fully interactive: upload documents and query without touching code.
-
-Efficient: incremental FAISS indexing avoids reprocessing.
-
-Lightweight: runs on low-memory systems.
-
-Open-source: no paid API keys required.
-
-Interview-ready: demonstrates RAG pipeline, vector DB, embeddings, and LLM generation.
+* Multi-document uploads at once.
+* Show indexed documents in UI.
+* Real-time progress bar for large documents.
+* Switch to larger LLM if more RAM is available.
 
 ---
 
-📌 Notes
+## **💡 Advantages**
 
-Keep uploaded documents in data/ folder for persistent storage.
-
-FAISS index is saved in embeddings/faiss_index*.
-
-To reset the index, delete the embeddings folder and restart the app.
+* Fully interactive: upload documents and query without touching code.
+* Efficient: incremental FAISS indexing avoids reprocessing.
+* Lightweight: runs on low-memory systems.
+* Open-source: no paid API keys required.
+* Interview-ready: demonstrates RAG pipeline, vector DB, embeddings, and LLM generation.
 
 ---
 
-🎯 Summary
+## **📌 Notes**
+
+* Keep uploaded documents in data/ folder for persistent storage.
+* FAISS index is saved in embeddings/faiss_index*.
+* To reset the index, delete the embeddings folder and restart the app.
+
+---
+
+## **🎯 Summary**
 
 This project is a production-grade RAG system suitable for:
-
-Document Q&A
-
-Knowledge management
-
-Research assistance
-
-Customer support automation
+* Document Q&A
+* Knowledge management
+* Research assistance
+* Customer support automation
 
 It’s fully modular, open-source, and demonstrates industry-level implementation of Retrieval-Augmented Generation.
 
