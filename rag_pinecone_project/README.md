@@ -21,7 +21,7 @@ This project demonstrates a **production-ready modular RAG pipeline** suitable f
 ## **Folder Structure**
 
 rag_pinecone_project/<br>
-│
+│<br>
 ├── app.py # Streamlit frontend<br>
 ├── requirements.txt # Python dependencies<br>
 ├── data/ # Uploaded documents stored here<br>
