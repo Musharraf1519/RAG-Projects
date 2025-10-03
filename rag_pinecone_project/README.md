@@ -122,9 +122,10 @@ streamlit run app.py
 ## **📸 Screenshots**
 
 ![Landing Page](screenshots/landing.png)
-![Upload Document](image-1.png)
-![Ingest Documents](image-2.png)
-![Query & Answer](image-3.png)
+![Upload Document](screenshots/upload.png)
+![Ingest Documents](screenshots/ingest.png)
+![Query & Answer](screenshots/query.png)
+
 ---
 
 ## 👨‍💻 Author
