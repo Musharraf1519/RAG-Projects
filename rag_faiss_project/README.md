@@ -135,7 +135,7 @@ It’s fully modular, open-source, and demonstrates industry-level implementatio
 ---
 ## **📸 Screenshots**
 
-
+![Home Page](initial.png)
 ![Final Page](image.png)
 
 ---
