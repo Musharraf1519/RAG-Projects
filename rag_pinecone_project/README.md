@@ -36,8 +36,6 @@ rag_pinecone_project/<br>
 ---
 
 
----
-
 ## **Installation**
 
 1. **Clone the repository**
@@ -124,7 +122,10 @@ streamlit run app.py
 ---
 ## **📸 Screenshots**
 
-
+![Landing Page](screenshots/landing.png)
+![Upload Document](image-1.png)
+![Ingest Documents](image-2.png)
+![Query & Answer](image-3.png)
 ---
 
 ## 👨‍💻 Author
